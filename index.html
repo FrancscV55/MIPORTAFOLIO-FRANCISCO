@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Francisco Vásquez — Portfolio</title>
+  <meta name="description" content="Francisco Vásquez · responsible, organized and ambitious young professional from Panama. About me, academics, volunteering, work experience and contact." />
+  <meta property="og:title" content="Francisco Vásquez — Portfolio" />
+  <meta property="og:description" content="A young boy full of values. Academics, volunteering and work experience." />
+  <meta property="og:image" content="about-suit.jpg" />
+  <meta name="theme-color" content="#14261b" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.png" />
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader" aria-hidden="true">
+    <div class="pre-mark">FV</div>
+    <div class="pre-name">Francisco Vásquez</div>
+    <div class="pre-line"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header id="site-header">
+    <div class="wrap bar">
+      <a href="#top" class="brand" aria-label="Francisco Vásquez, home">F<span>.</span>Vásquez</a>
+      <nav id="nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#hobby">Hobby</a>
+        <a href="#identity">Identity</a>
+        <a href="#academics">Academics</a>
+        <a href="#volunteering">Volunteering</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><i></i><i></i></button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <h1 class="hero-name" aria-label="Francisco Vásquez">
+            <span class="n1">Francisco</span>
+            <span class="n2">Vásquez</span>
+          </h1>
+          <blockquote class="hero-quote" data-aos="fade-up" data-aos-delay="300">
+            “Never let your fears stop you from being happy, because every fear you face and overcome brings you closer to the best version of yourself.”
+          </blockquote>
+          <div class="hero-actions" data-aos="fade-up" data-aos-delay="450">
+            <a href="#about" class="btn btn-light">Explore Now</a>
+            <button class="btn btn-ghost" id="play-video" data-video="video-francisco.mp4" data-poster="video-poster.jpg">
+              <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="currentColor"/><path d="M10 8l6 4-6 4z" fill="var(--green)"/></svg>
+              Play Video
+            </button>
+          </div>
+        </div>
+        <div class="hero-photo" data-aos="fade-left" data-aos-duration="1100">
+          <img src="hero-cutout.webp" alt="Francisco Vásquez in a navy suit and blue tie" width="900" height="1200" fetchpriority="high" />
+        </div>
+      </div>
+      <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="split about">
+      <div class="split-img" data-aos="fade-right">
+        <img src="about-suit.jpg" alt="Francisco in a black suit" loading="lazy" />
+      </div>
+      <div class="split-copy on-ivory" data-aos="fade-left">
+        <img class="avatar" src="about-small.jpg" alt="Francisco looking over a green landscape" loading="lazy" />
+        <p class="eyebrow">About me</p>
+        <h2>A young boy full of values.</h2>
+        <p class="justify">I’m a responsible, organized, and ambitious person who enjoys learning new things and is determined to achieve his goals. I believe in the importance of respect, honesty, and perseverance. I’m always looking for opportunities to grow, improve my skills, and turn my ideas into meaningful projects. I face every challenge with a positive attitude and the desire to become a better version of myself.</p>
+        <ul class="values" aria-label="Core values">
+          <li>Respect</li><li>Honesty</li><li>Perseverance</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- HOBBY banner -->
+    <section id="hobby" class="banner">
+      <h2 data-aos="zoom-in">My Hobbie</h2>
+    </section>
+    <section class="split split-rev hobby">
+      <div class="split-img framed" data-aos="fade-right">
+        <img src="cooking.jpg" alt="Hands tipping chopped tomato into a pan on the stove" loading="lazy" />
+      </div>
+      <div class="split-copy on-ivory" data-aos="fade-left">
+        <p>I enjoy prepare different meals and trying new recipes, especially when I can share them with my family and friends.</p>
+        <p>Cooking also teaches me patience, organization, and attention to detail, which are qualities that help me in many areas of my life.</p>
+        <ul class="values" aria-label="What cooking teaches me">
+          <li>Patience</li><li>Organization</li><li>Attention to detail</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL IDENTITY -->
+    <section id="identity" class="identity">
+      <div class="wrap identity-grid">
+        <div class="identity-copy" data-aos="fade-right">
+          <h2>Professional<br />Identity</h2>
+          <p class="justify">I am a proactive, and adaptable candidate with strong leadership, analytical thinking, and organizational skills. Committed to delivering high-quality results.</p>
+          <ul class="chips" aria-label="Key skills">
+            <li>Leadership</li><li>Analytical thinking</li><li>Organization</li><li>Adaptable</li>
+          </ul>
+        </div>
+        <div class="identity-photo" data-aos="fade-left">
+          <img src="identity.jpg" alt="Selfie of Francisco in a white shirt and tie" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ACADEMICS -->
+    <section id="academics" class="academics">
+      <div class="wrap">
+        <h2 data-aos="fade-up">Academics</h2>
+        <div class="trio">
+          <figure data-aos="fade-up" data-aos-delay="0"><img src="academics-1.jpg" alt="Francisco at a school parade with a classmate" loading="lazy" /></figure>
+          <figure data-aos="fade-up" data-aos-delay="120"><img src="academics-2.jpg" alt="Group of students in school uniform" loading="lazy" /></figure>
+          <figure data-aos="fade-up" data-aos-delay="240"><img src="academics-3.jpg" alt="Francisco with two classmates outdoors" loading="lazy" /></figure>
+        </div>
+        <p class="lead" data-aos="fade-up">My academic path has been shaped by perseverance, leadership, and the pursuit of opportunities that foster personal and professional development.</p>
+      </div>
+    </section>
+
+    <!-- VOLUNTEERING -->
+    <section id="volunteering" class="volunteering">
+      <div class="split vol-head">
+        <div class="vol-title"><h2 data-aos="fade-right">Volunteering</h2></div>
+        <div class="split-img" data-aos="fade-left"><img src="volunteer.jpg" alt="Francisco in a Giving Back volunteer shirt on a ladder" loading="lazy" /></div>
+      </div>
+      <div class="vol-slide">
+        <div class="wrap">
+          <article class="vol-card" data-aos="fade-up">
+            <img src="techo.jpg" alt="Volunteers forming a roof with their arms in front of a newly built home" loading="lazy" />
+            <div>
+              <h3>TECHO Panama</h3>
+              <p class="justify">I volunteered with TECHO Panamá, helping build homes for families in need. This experience strengthened my teamwork skills and reinforced the importance of supporting my community.</p>
+            </div>
+          </article>
+          <article class="vol-card flip" data-aos="fade-up">
+            <img src="hogar-eco.jpg" alt="Francisco with students and volunteers collecting recyclables" loading="lazy" />
+            <div>
+              <h3>Hogar Eco</h3>
+              <p class="justify">I volunteered with Hogar Eco, supporting environmental campaigns through recycling and used cooking oil collection. This experience strengthened my environmental awareness and sense of social responsibility.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKING EXPERIENCE -->
+    <section id="experience" class="split split-rev work">
+      <div class="split-img" data-aos="fade-right">
+        <img src="experience.jpg" alt="Francisco with the team at Óptica López" loading="lazy" />
+      </div>
+      <div class="split-copy on-ivory" data-aos="fade-left">
+        <h2>Working<br />Experience</h2>
+        <p class="justify">I completed an internship at Óptica López as an Administrative Assistant, where I strengthened my organizational and customer service skills.</p>
+        <p class="role"><strong>Administrative Assistant</strong> · Óptica López <span>Internship</span></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CONTACT -->
+  <footer id="contact" class="contact">
+    <div class="wrap">
+      <p class="eyebrow light">Francisco Vásquez</p>
+      <h2 data-aos="fade-up">Contact</h2>
+      <ul class="contact-list" data-aos="fade-up" data-aos-delay="150">
+        <li><a href="mailto:francisco.vasquez2026@mottach.superate.org">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+          <span>francisco.vasquez2026@mottach.superate.org</span></a></li>
+        <li><a href="https://www.linkedin.com/in/francisco-vásquez-r" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v6M8 7.5v.01M12 17v-6m0 3c0-2 1.2-3 2.8-3S17 12 17 14v3"/></svg>
+          <span>www.linkedin.com/in/francisco-vásquez-r</span></a></li>
+        <li><a href="tel:+50761744758">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
+          <span>+507 6174-4758</span></a></li>
+      </ul>
+      <p class="copy">© <span id="year">2026</span> Francisco Vásquez</p>
+    </div>
+  </footer>
+
+  <!-- VIDEO MODAL -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-label="Video" hidden>
+    <button class="modal-close" id="modal-close" aria-label="Close video">&times;</button>
+    <div class="modal-stage" id="modal-stage"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

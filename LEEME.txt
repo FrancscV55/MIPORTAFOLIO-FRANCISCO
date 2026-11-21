@@ -1,0 +1,8 @@
+COMO SUBIR A GITHUB (todo esta suelto, sin carpetas)
+1. En tu repositorio: Add file > Upload files.
+2. Selecciona TODOS los archivos de esta carpeta (Ctrl+A) y arrastralos.
+   (index.html debe quedar en la lista principal del repositorio)
+3. Commit changes.
+4. Settings > Pages > Deploy from a branch > main > / (root) > Save.
+5. Abre https://francscv55.github.io/MIPORTAFOLIO-FRANCISCO/ (1-3 min).
+Para cambiar el video: reemplaza video-francisco.mp4 (maximo 25 MB).
